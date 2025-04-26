@@ -1,7 +1,7 @@
-from os import system;
-import random;
+def AdivinheNumero():
+    from os import system;
+    import random;
 
-def gg():
     system('cls');
 
     print("######################################");
@@ -37,7 +37,7 @@ def gg():
         tentativa_int = int(tentativa);
         if(tentativa_int < 1 or tentativa_int > 100):
             print("Tentativa INVÁLIDA! Somente números entre 0 a 100!");
-            continue
+            continue;
 
         #respotas das tentativas
         acerto = tentativa_int == numero_secreto;
@@ -46,7 +46,7 @@ def gg():
 
         if(acerto):
             print("boa tentativa. Acertou!");
-            break
+            break;
             
         if(ehmaior):
             print("Você errou! Número citado é maior, tente novamente");
@@ -58,4 +58,4 @@ def gg():
     input('\nObrigado por participar\n');
 
 if(__name__ == "__main__"):
-    gg()
+    AdivinheNumero();

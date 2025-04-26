@@ -1,8 +1,7 @@
-from os import system, name;
-import random;
+def PedraPapelTesoura():
+    from os import system, name;
+    import random;
 
-
-def gg():
     opcao = 's';
     while opcao.upper()=='S':
         system('cls') if(name== 'nt') else system('clear')
@@ -23,10 +22,10 @@ def gg():
         ('JOGADOR', 'CPU', 'NINGUEM')
     );
 
-    print(f'Voce escolheu {pecas[jogador]}')
-    print(f'CPU escolheu {pecas[computador]}')
-    print(f'{tabela[computador][jogador]} GANHOU!!!')
-    opcao = input("Jogar novamente? Aperte S(sim) para jogar")
+    print(f'Voce escolheu {pecas[jogador]}');
+    print(f'CPU escolheu {pecas[computador]}');
+    print(f'{tabela[computador][jogador]} GANHOU!!!');
+    opcao = input("Jogar novamente? Aperte S(sim) para jogar");
 
 if(__name__ == "__main__"):
-    gg()
+    PedraPapelTesoura();
