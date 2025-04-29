@@ -1,5 +1,5 @@
 
-def JogoForca():
+def gg():
     import forca.desenhos as desenhos;
     import forca.func as func;
 
@@ -43,4 +43,4 @@ def JogoForca():
     print('\nObrigado por participar!\n')
     
 if(__name__ == "__main__"):
-    JogoForca();
+    gg();
