@@ -1,7 +1,7 @@
 from os import path
 import random
 
-def gg():
+def imprime_mensagem_abertura():
     print("################################################");
     print("-_-_-_-_-_-* * * Jogo da Forca * * *-_-_-_-_-_-");
     print("################################################");
@@ -15,7 +15,7 @@ def definir_tema():
                     4 - Nome de Pessoas
                     5 - Frutas
                 """))
-    dicas = ('carros','cidade','país','nome','fruta')
+    dicas = ('carro','cidade','país','nome','fruta')
     return dicas[dica-1]
 
 def carrega_palavra_secreta(tema):
