@@ -18,6 +18,6 @@ while opcao.upper()=='S':
         ex3_PedraPapelTesoura.PedraPapelTesoura();
 
     if(qualJogo == 3):
-        ex4_aForca.JogoForca();
+        ex4_aForca.gg();
     
     opcao = input("Jogar novamente? Aperte S(sim) para jogar");
